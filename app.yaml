@@ -1,0 +1,7 @@
+runtime: python39
+handlers:
+  - url: /
+    static_files: dist/angular-chart-demo/index.html
+    upload: dist/angular-chart-demo/index.html
+  - url: /
+    static_dir: dist/angular-chart-demo
